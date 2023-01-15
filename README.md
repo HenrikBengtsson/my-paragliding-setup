@@ -146,7 +146,7 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 
 ## Configuration
 
-### Poke3, BlueFlyVariom and XCTrack
+### Poke3, BlueFlyVario, and XCTrack
 
 Use BlueFlyVario as external GPS in XTrack:
 
