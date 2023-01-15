@@ -16,6 +16,13 @@ Everything is attached using industrial-strength velcro. In addition
 to this, I carry an Android phone in my pocket that shares internet
 with the Poke 3 e-reader for XCTrack live location sharing and viewer.
 
+<figure style="margin-top: 3ex;">
+  <img 
+    src="images/my_pg_cockpit-2022.jpg" 
+    style="width: 80%; margin: 0; margin-bottom: 2ex;"
+  />
+</figure>
+
 I'm fairly happy with this set up. The readability of the e-reader is
 excellent - the brighter the sun is, then better it is, and it's
 already awesome on cloud days. The e-reader has a touchscreen, but
