@@ -1,20 +1,21 @@
-# My paragliding gadgets
+# My Paragliding Setup
 
 _Last updated: 2023-01-15_
 
 I've got the following devices on my paragliding cockpit since May
 2022:
 
-* Vario: [BlueFlyVario] w/ Bluetooth & GPS v22
-
 * Display: [ONYX BOOX Poke 3] Android 7-inch e-reader running the
   XCTrack app
+
+* Vario: [BlueFlyVario] w/ Bluetooth & GPS v22
 
 * Keyboard: [Recoil Waterproof Bluetooth Media Button]
 
 Everything is attached using industrial-strength velcro. In addition
 to this, I carry an Android phone in my pocket that shares internet
-with the Poke 3 e-reader for XCTrack live location sharing and viewer.
+with the Poke 3 e-reader for XCTrack live location sharing and 
+viewing.
 
 <figure style="margin-top: 3ex;">
   <img 
