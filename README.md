@@ -154,7 +154,7 @@ Use BlueFlyVario as external GPS in XTrack:
 1. In Poke 3 Bluetooth settings, pair BlueFlyVario device
    (e.g. BlueFly-7D0D). No PIN required
 
-2. In Poke 3, enable 'Location' by click on the map icon (to the very
+2. In Poke 3, enable 'Location' by clicking on the map icon (to the very
    right) in the Poke 3 pulldown menu **IMPORTANT**: if this is not
    done, then you cannot connect the BlyFlyVario device in XCTrack
 
