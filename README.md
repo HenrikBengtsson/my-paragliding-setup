@@ -26,7 +26,7 @@ viewing.
 
 I'm fairly happy with this setup. The readability of the e-reader is
 excellent - the brighter the sun is, then better it is, and it's
-already awesome on cloud days. The e-reader has a touchscreen, but
+already awesome on cloudy days. The e-reader has a touchscreen, but
 since that works so and so with gloves, I use the five-button media
 button as an external keyboard. The bluetooth connection between the
 Poke 3 e-reader and the BlueFlyVario is 100% reliable and always
