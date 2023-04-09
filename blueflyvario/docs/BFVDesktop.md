@@ -130,9 +130,23 @@ With vario physically connected via USB cable but not connected in BFVDesktop:
 1. Turn off vario
 2. Connect to vario (`ttyUSB0`)
 3. Turn vario back on
-4. Disconnect briefly afterward
 
-The raw data stream should now show something like:
+You should now see something like:
+
+* Hardware Version: 22.2.566
+* Alt:
+* Temp: 
+* BAT: 4.27 V
+
+which tells us that we're running firmware v22.2 release 566.  From
+<https://www.blueflyvario.com/files/v22/>, we can see that it was
+released on 2022-10-08.
+
+Note that the vario will only send the firmware version when it is
+turned on, which is BFVDekstop has to be connected to it via cable
+when the vario is turned on.
+
+We can also find the firmware version from the raw data stream:
 
 ```
 $BST*
@@ -143,10 +157,6 @@ BlueFlyVario_BLUETOOTH_GPS_IGC_22.2.566
 BST BFK BFL BFP BAC BAD BTH BFQ BFI BSQ BSI BFS BOL BOS BRM BVL BOM BOF BQH BRB BPT BUR BLD BR2 BHV BHT BBZ BZT BSM BUP BTT BDM BQS BGL BSN BFN BMP BPN
 ...
 ```
-
-From this output, we can tell that the firmware of v22.2 release 566.
-From <https://www.blueflyvario.com/files/v22/>, we can see that it was
-released on 2022-10-08.
 
 
 
