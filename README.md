@@ -32,12 +32,15 @@ button as an external keyboard. The bluetooth connection between the
 Poke 3 e-reader and the BlueFlyVario is 100% reliable and always
 automatically. Same with the media button.
 
-The only complaint I have is that the BlueFlyVario has twice refused
-to boot up. Unfortunately, when this happens, the _only_ way to get it
-working again is to reflash the firmware, but that requires an MS
-Windows computer, which you probably don't bring on your flying trip.
-This has happend twice to me (August 2022, and December 2022) - both
-times during flying trips ¯\_(ツ)_/¯. I hope that it won't happen again with the newer firmware I now got.
+The only complaint I have is that one of the two BlueFlyVario has
+twice refused to boot up. Unfortunately, when this happens, the _only_
+way to get it working again is to reflash the firmware, but that
+requires an MS Windows computer, which you probably don't bring on
+your flying trip.  This has happend twice to me (August 2022, and
+December 2022) - both times during flying trips ¯\_(ツ)_/¯. I hope
+that it won't happen again with the newer firmware I now got. OTH,
+since it's only out of two identical varios that's been acting up,
+there is a slight risk that one is a lemon.
 
 
 ## Procedure on launch
