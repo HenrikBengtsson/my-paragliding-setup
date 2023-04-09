@@ -26,7 +26,7 @@ $ CLASSPATH="BFVDesktop.jar:jSerialComm.jar" java bfv.desktop.BFVDesktop
 
 This opens the BFVDesktop window:
 
-![]("BFVDesktop_v0.85.png" "BFVDesktop v0.85 window")
+![Screenshot of the BFVDesktop v0.85 window]("BFVDesktop_v0.85.png")
 
 
 ### Troubleshooting
