@@ -84,7 +84,7 @@ I've got the [BlueFlyVario] with Bluetooth & GPS v22.  We order two on
 * Power button: click to turn ON, long press to turn OFF
 
 * Power button when already ON: short press toggles audio ON, BUZZER,
-  and OFF
+  and OFF. This is easy to press during a flight.
 
 * Battery status (during startup):
 
