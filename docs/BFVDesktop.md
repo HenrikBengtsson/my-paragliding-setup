@@ -24,6 +24,10 @@ Alternatively, you can use the equivalent:
 $ CLASSPATH="BFVDesktop.jar:jSerialComm.jar" java bfv.desktop.BFVDesktop
 ```
 
+This opens the BFVDesktop window:
+
+![]("BFVDesktop_v0.85.png" "BFVDesktop v0.85 window")
+
 
 ### Troubleshooting
 
