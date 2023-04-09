@@ -71,7 +71,7 @@ the XC Track app.
 
 ### Vario: BlueFlyVario with Bluetooth & GPS v22
 
-I've got the [BlueFlyVario] with Bluetooth & GPS v22.  We order two on
+I've got the [BlueFlyVario] with Bluetooth & GPS v22.  We ordered two on
 2022-05-12 for 348 AUD (~240 USD) and received them 2022-05-29.
 
 * Weight: 48 g
