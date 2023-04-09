@@ -37,7 +37,7 @@ twice refused to boot up. Unfortunately, when this happens, the _only_
 way to get it working again is to reflash the firmware, but that
 requires an MS Windows computer, which you probably don't bring on
 your flying trip.  This has happend twice to me (August 2022, and
-December 2022) - both times during flying trips ¯\_(ツ)_/¯. I hope
+December 2022) - both times during flying trips ¯\\_(ツ)_/¯. I hope
 that it won't happen again with the newer firmware I now got. OTH,
 since it's only out of two identical varios that's been acting up,
 there is a slight risk that one is a lemon.
