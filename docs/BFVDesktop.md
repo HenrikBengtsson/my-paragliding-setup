@@ -2,6 +2,13 @@
 
 ## Linux
 
+### Requirements
+
+* Java Run-Time
+* Sudo permissions (required for using the serial connection)
+* USB cable
+
+
 ### Installation
 
 ```sh
@@ -12,21 +19,47 @@ $ cd distr
 
 ### Usage
 
-To launch BFV Deskop, call the following while `distr/` being the current directory:
+1. Connect the BlueFlyVario to computer via USB cable
+
+2. Launch the BFVDesktop software as administrator (see below)
+
+3. Select serial port `ttyUSB0` (with default 115,000 baud rate)
+
+4. Click 'Connect'
+
+When connecting, the software sends command `$BST*` to the vario, which responds with a never-ending stream of data.  The 'Raw Rx' panel will show something like:
+
+```
+$BST*
+PRS 18738
+PRS 18737
+PRS 18738
+$GNGGA,200729.000,3752.105089,N,12214.799547,W,1,4,1.90,176.023,M,-24.904,M,,*76
+PRS 1873A
+PRS 1873B
+PRS 1873A
+...
+```
+
+
+To launch BFVDesktop, call the following while `distr/` being the current directory:
 
 ```sh
-$ java -classpath "BFVDesktop.jar:jSerialComm.jar" bfv.desktop.BFVDesktop
+$ sudo java -classpath "BFVDesktop.jar:jSerialComm.jar" bfv.desktop.BFVDesktop
 ```
 
 Alternatively, you can use the equivalent:
 
 ```sh
-$ CLASSPATH="BFVDesktop.jar:jSerialComm.jar" java bfv.desktop.BFVDesktop
+$ sudo CLASSPATH="BFVDesktop.jar:jSerialComm.jar" java bfv.desktop.BFVDesktop
 ```
 
 This opens the BFVDesktop window:
 
 ![Screenshot of the BFVDesktop v0.85 window](BFVDesktop_v0.85.png)
+
+
+
 
 
 ### Troubleshooting
