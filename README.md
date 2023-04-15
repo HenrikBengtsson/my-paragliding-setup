@@ -166,6 +166,7 @@ Use BlueFlyVario as external GPS in XTrack:
    It will scan for paired Bluetooh devices. Select the BlueFlyVario
    device (e.g. BlueFly-7D0D).
 
+
 ### BlueFlyVario setting
 
 Options to change hardware settings:
@@ -179,6 +180,42 @@ Options to change hardware settings:
 For Poke 3, which does not have a speaker, change:
 
 * `UseAudioWhenConnected`: `true` (default `false`)
+
+
+### Recoil Media Button settings
+
+This device broadcasts itself on Bluetooth as 'PCR-1'. To pair to the
+Poke 3, go to the Bluetooth settings and locate 'PCR-1' under
+'Available devices'.  Then click on 'PCR-1' to pair it.  When paired
+it will appear under 'CONNECTED DEVICES'.  When powered off, it will
+be listed under 'PAIRED DEVICES', which are the devices that the Poke
+3 remembers.
+
+When powered on, the Poke 3 will immediately connect to the Recoil
+Media Button device.
+
+The device goes automatically into a sleep mode after ?? minutes. This
+is to safe battery. Pressing any button (Previous track, Next track,
+Volumn Down, Volume Up, PAUSE/PLAY) will wake it up with very little
+delay.
+
+To configure what the buttons should do, open XC Track, go to
+'Preferences', andthen 'Key bindings'.  I use the following settings:
+
+* Switch to page left: Previous track
+* Switch to page right: Next track
+* Zoom map in: None
+* Zoom map out: None
+* Toggle map panning: Long press: 85
+* Pan map LEFT in panning mode: Long press: Previous track
+* Pan map RIGHT in panning mode: Long press: Next track
+* Pan map UP in panning mode: Volumn Up
+* Pan map DOWN in panning mode: Volumn Down
+* Show menu: None
+* Revert to previous waypoint in task: None
+* Advance to previous waypoint in task: None
+* Increase display brightness: None
+* Decrease display brightness: None
 
 
 [BlueFlyVario]: https://www.blueflyvario.com/
