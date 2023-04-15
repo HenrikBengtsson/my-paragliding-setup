@@ -195,7 +195,7 @@ When powered on, the Poke 3 will immediately connect to the Recoil
 Media Button device.
 
 The device goes automatically into a [sleep mode after 20
-minutes](recoil/Recoil_PCR-1-UserManual.pdf). This is to safe
+minutes](recoil/Recoil_PCR-1-UserManual.pdf). This is to preserve
 battery. Pressing any button (Previous track, Next track, Volumn Down,
 Volume Up, PAUSE/PLAY) will wake it up with very little delay.
 
