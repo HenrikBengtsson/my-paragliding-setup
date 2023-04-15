@@ -194,10 +194,10 @@ be listed under 'PAIRED DEVICES', which are the devices that the Poke
 When powered on, the Poke 3 will immediately connect to the Recoil
 Media Button device.
 
-The device goes automatically into a sleep mode after ?? minutes. This
-is to safe battery. Pressing any button (Previous track, Next track,
-Volumn Down, Volume Up, PAUSE/PLAY) will wake it up with very little
-delay.
+The device goes automatically into a [sleep mode after 20
+minutes](recoil/Recoil_PCR-1-UserManual.pdf). This is to safe
+battery. Pressing any button (Previous track, Next track, Volumn Down,
+Volume Up, PAUSE/PLAY) will wake it up with very little delay.
 
 To configure what the buttons should do, open XC Track, go to
 'Preferences', andthen 'Key bindings'.  I use the following settings:
