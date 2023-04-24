@@ -155,11 +155,18 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 Use BlueFlyVario as external GPS in XTrack:
 
 1. In Poke 3 Bluetooth settings, pair BlueFlyVario device
-   (e.g. BlueFly-7D0D). No PIN required
+   (e.g. BlueFly-7D0D). No PIN required.
 
-2. In Poke 3, enable 'Location' by clicking on the map icon (to the very
-   right) in the Poke 3 pulldown menu **IMPORTANT**: if this is not
-   done, then you cannot connect the BlyFlyVario device in XCTrack
+2. In Poke 3, open the 'Control Center' in the Poke 3/Android pulldown
+   menu. There you should see WiFi and Bluetooth buttons at the very
+   top.  Below are two panels, both showing a set of icons that can be
+   used to toggle settings on and off.  The top panel, of these two,
+   has a volume bar and the bottom one a brightness bar and a contrast
+   bar.  In the top panel, enable 'Location' by clicking on the map
+   icon. This icon might be in the second "subscreen", which you can
+   get to by swiping left inside the panel.
+   **IMPORTANT**: if this is not done, then you cannot connect the
+   BlyFlyVario device in XCTrack (at least not on Poke 3).
 
 3. In XCTrack, go to 'Preferences', then 'Connections & Sensors'.
    Click 'External sensors', select 'Bluetooth sensor' and click 'OK'.
