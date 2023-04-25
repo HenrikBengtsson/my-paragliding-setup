@@ -150,7 +150,27 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 
 ## Configuration
 
-### Poke3, BlueFlyVario, and XCTrack
+### Poke 3 and XCTrack
+
+The Poke graphical user interface (GUI) can be a bit peculiar at
+first. For example, it uses it's own on-screen keyboard and it also
+has a, so called, 'Navigation Ball'.  It's a small round blob that
+sits in front on any app you open.  You'll need it.  If you click it,
+you'll get access to more action buttons, and one commonly used one is
+the "back" button.
+
+In order for XCTrack to go into landscape, which you can set inside
+XCTrack by going to 'Preferences' and then 'Orientation', you must
+configure the app such that it can override the 'Rotation' settings
+that the Poke GUI uses, which is 'Portrait' by default.  To do this:
+
+1. Long press 'XCTrack' app icon
+2. Select 'Optimize'
+3. Go to the 'Others' tab
+4. Disable 'Force to use system orientation' (i.e. set it to OFF)
+
+
+### Poke 3, BlueFlyVario, and XCTrack
 
 Use BlueFlyVario as external GPS in XTrack:
 
