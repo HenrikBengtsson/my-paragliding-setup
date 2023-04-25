@@ -1,6 +1,6 @@
 # My Paragliding Setup
 
-_Last updated: 2023-01-15_
+_Last updated: 2023-04-24_
 
 I've got the following devices on my paragliding cockpit since May
 2022:
