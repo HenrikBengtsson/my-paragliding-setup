@@ -144,7 +144,7 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 
 * Speaker: no
 
-* XCTrack: Install via [APK](https://xctrack.org/Download.html)
+* XCTrack: Install via [APK](https://xctrack.org/Download.html) ([changelog](https://xctrack.org/Change_Log.html))
 
 
 
