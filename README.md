@@ -5,7 +5,7 @@ _Last updated: 2023-04-24_
 I've got the following devices on my paragliding cockpit since May
 2022:
 
-* Display: [ONYX BOOX Poke 3] Android 7-inch e-reader running the
+* Display: [ONYX BOOX Poke 3] Android 6-inch e-reader running the
   XCTrack app
 
 * Vario: [BlueFlyVario] w/ Bluetooth & GPS v22
@@ -138,13 +138,17 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 
 * Dimensions: 153 x 107 x 6.8 mm
 
+* Screen: 6.0 inch (90 x 120 mm), 1072 x 1448 px (300 ppi), 16 gray
+  scales
+
 * Android: 10
 
 * Google Play Store: no/maybe (failed to install it)
 
 * Speaker: no
 
-* XCTrack: Install via [APK](https://xctrack.org/Download.html) ([changelog](https://xctrack.org/Change_Log.html))
+* XCTrack: Install via [APK](https://xctrack.org/Download.html)
+  ([changelog](https://xctrack.org/Change_Log.html))
 
 
 
