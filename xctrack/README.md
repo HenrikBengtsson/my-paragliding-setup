@@ -8,7 +8,8 @@ on the Poke,
 
 1. Go to 'Preferences',
 
-2. then 'Testing & Debug', and
+2. then 'Export & import config' (or 'Testing & Debug' on XCTrack <=
+   0.9.8.6), and
 
 3. click 'Export configuration'.
 
