@@ -1,12 +1,18 @@
 # My Paragliding Setup
 
-_Last updated: 2023-04-24_
+_Last updated: 2023-06-30_
 
 I've got the following devices on my paragliding cockpit since May
 2022:
 
 * Display: [ONYX BOOX Poke 3] Android 6-inch e-reader running the
-  XCTrack app
+  XCTrack app.
+  
+  UPDATE May 2023: The 'ONYX BOOX Poke 3' (Android 10; 758×1024
+  pixels; 1072×1448 pixels = 300 ppi) is discontinued and has been
+  replaced by the [ONYX BOOX Poke 4 Lite] (Android 11; 758×1024 pixels
+  = 221 ppi).  Two pilots have confirmed that the below instructions
+  work also for the 'Poke 4 Lite' - they're happy with it.
 
 * Vario: [BlueFlyVario] w/ Bluetooth & GPS v22
 
@@ -254,3 +260,4 @@ To configure what the buttons should do, open XC Track, go to
 [BFV Desktop Java Application]: https://www.blueflyvario.com/software/
 [Recoil Waterproof Bluetooth Media Button]: https://smile.amazon.com/gp/product/B085BYDHG9/
 [ONYX BOOX Poke 3]: https://onyxboox.com/boox_poke3
+[ONYX BOOX Poke 4 Lite]: https://onyxboox.com/boox_poke4lite
