@@ -1,6 +1,6 @@
 # My Paragliding Setup
 
-_Last updated: 2023-06-30_
+_Last updated: 2023-07-09_
 
 I've got the following devices on my paragliding cockpit since May
 2022:
@@ -65,7 +65,7 @@ there is a slight risk that one is a lemon.
 6. Confirm that live tracking and GPS works
 
 7. Power on the Media Button and confirm pressing left-right shifts
-  XCTrack displays
+   XCTrack displays
 
 The only little bit of friction in this set up is the hotspot setup
 and making sure the Poke 3 has a wifi connection before launching
@@ -182,26 +182,35 @@ that the Poke GUI uses, which is 'Portrait' by default.  To do this:
 
 ### Poke 3, BlueFlyVario, and XCTrack
 
-Use BlueFlyVario as external GPS in XTrack:
+Use BlueFlyVario as an external GPS in XTrack:
 
-1. In Poke 3 Bluetooth settings, pair BlueFlyVario device
+1. **Pairing**: In Poke 3 Bluetooth settings, pair BlueFlyVario device
    (e.g. BlueFly-7D0D). No PIN required.
 
-2. In Poke 3, open the 'Control Center' in the Poke 3/Android pulldown
-   menu. There you should see WiFi and Bluetooth buttons at the very
-   top.  Below are two panels, both showing a set of icons that can be
-   used to toggle settings on and off.  The top panel, of these two,
-   has a volume bar and the bottom one a brightness bar and a contrast
-   bar.  In the top panel, enable 'Location' by clicking on the map
-   icon. This icon might be in the second "subscreen", which you can
-   get to by swiping left inside the panel.
-   **IMPORTANT**: if this is not done, then you cannot connect the
-   BlyFlyVario device in XCTrack (at least not on Poke 3).
+2. **Enable location**: In Poke 3, open the 'Control Center' in the
+   Poke 3/Android pulldown menu. There you should see WiFi and
+   Bluetooth buttons at the very top.  Below are two panels, both
+   showing a set of icons that can be used to toggle settings on and
+   off.  The top panel, of these two, has a volume bar and the bottom
+   one a brightness bar and a contrast bar.  In the top panel, enable
+   'Location' by clicking on the map icon. This icon might be in the
+   second "subscreen", which you can get to by swiping left inside the
+   panel.  **IMPORTANT**: if this is not done, then you cannot connect
+   the BlyFlyVario device in XCTrack (at least not on Poke 3).
 
-3. In XCTrack, go to 'Preferences', then 'Connections & Sensors'.
-   Click 'External sensors', select 'Bluetooth sensor' and click 'OK'.
-   It will scan for paired Bluetooh devices. Select the BlueFlyVario
-   device (e.g. BlueFly-7D0D).
+3. **External GPS in XCTrack**: In XCTrack, go to 'Preferences', then
+   'Connections & Sensors'.
+
+   a. Under 'Connection', click 'External sensors', select 'Bluetooth
+      sensor' and click 'OK'.  It will scan for paired Bluetooh
+      devices. Select the BlueFlyVario device (e.g. BlueFly-7D0D).
+
+   b. Under 'GPS', enable 'Use external GPS'.  **IMPORTANT**: If you
+      forget this, XCTrack will never recieve GPS data therefore only
+      report on the lift and sink (from the barometer in
+      BlueFlyVario).  When it works, XC Track will give the 'GPS
+      signal OK' notification and it will show GPS altitute, the
+      speed, flight arrow, and more even when on the group.
 
 
 ### BlueFlyVario setting
