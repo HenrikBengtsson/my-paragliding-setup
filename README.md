@@ -55,8 +55,7 @@ there is a slight risk that one is a lemon.
 
 2. On Android phone, start WiFi hotspot
 
-3. Confirm that the Poke 3 is connected to the phone's WiFi (must be
-   done before starting XCTrack!)
+3. Confirm that the Poke 3 is connected to the phone's WiFi
 
 4. Power on the BlueFlyVario vario
 
@@ -198,8 +197,8 @@ Use BlueFlyVario as an external GPS in XTrack:
    panel.  **IMPORTANT**: if this is not done, then you cannot connect
    the BlyFlyVario device in XCTrack (at least not on Poke 3).
 
-3. **External GPS in XCTrack**: In XCTrack, go to 'Preferences', then
-   'Connections & Sensors'.
+3. **External GPS and External Barometer in XCTrack**: In XCTrack, go
+   to 'Preferences', then 'Connections & Sensors'.
 
    a. Under 'Connection', click 'External sensors', select 'Bluetooth
       sensor' and click 'OK'.  It will scan for paired Bluetooh
@@ -211,6 +210,11 @@ Use BlueFlyVario as an external GPS in XTrack:
       BlueFlyVario).  When it works, XC Track will give the 'GPS
       signal OK' notification and it will show GPS altitute, the
       speed, flight arrow, and more even when on the group.
+
+   c. Under 'Atmospheric pressure sensor', enable 'Use external
+      barometer'.  **IMPORTANT**: If you forget this, I think XCTrack
+      will use the GPS data, which is much less sensitive, to report
+      on lift and sink.
 
 
 ### BlueFlyVario setting
