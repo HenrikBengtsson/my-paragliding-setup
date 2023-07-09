@@ -61,8 +61,10 @@ there is a slight risk that one is a lemon.
 
 5. Start XC Track
 
-6. Confirm that live tracking and GPS works
-
+6. Confirm that Bluetooth, GPS and live tracking work ![XCTrack status
+   bar with GPS, Bluetooth, live tracking and battery are all
+   good](images/xctrack-status-bar-ok.png)
+   
 7. Power on the Media Button and confirm pressing left-right shifts
    XCTrack displays
 
