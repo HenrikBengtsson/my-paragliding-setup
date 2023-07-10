@@ -59,7 +59,7 @@ there is a slight risk that one is a lemon.
 
 4. Power on the BlueFlyVario vario
 
-5. Start XC Track
+5. Start XCTrack
 
 6. Confirm that Bluetooth, GPS and live tracking work
 
@@ -72,7 +72,7 @@ are all good](images/xctrack-status-bar-ok.png)
 The only little bit of friction in this set up is the hotspot setup
 and making sure the Poke 3 has a wifi connection before launching
 XCTrack.  Without that, it's just power on the devices and starting
-the XC Track app.
+the XCTrack app.
 
 
 ## Gadget details
@@ -210,7 +210,7 @@ Use BlueFlyVario as an external GPS in XTrack:
    b. Under 'GPS', enable 'Use external GPS'.  **IMPORTANT**: If you
       forget this, XCTrack will never recieve GPS data therefore only
       report on the lift and sink (from the barometer in
-      BlueFlyVario).  When it works, XC Track will give the 'GPS
+      BlueFlyVario).  When it works, XCTrack will give the 'GPS
       signal OK' notification and it will show GPS altitute, the
       speed, flight arrow, and more even when on the group.
 
@@ -252,7 +252,7 @@ minutes](recoil/Recoil_PCR-1-UserManual.pdf). This is to preserve
 battery. Pressing any button (Previous track, Next track, Volumn Down,
 Volume Up, PAUSE/PLAY) will wake it up with very little delay.
 
-To configure what the buttons should do, open XC Track, go to
+To configure what the buttons should do, open XCTrack, go to
 'Preferences', andthen 'Key bindings'.  I use the following settings:
 
 * Switch to page left: Previous track
