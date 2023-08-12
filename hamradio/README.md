@@ -18,7 +18,7 @@ radio that is on my flight deck.  I then turn on the radio to confirm
 that I can hear "Frequency mode" or "Channel mode" that the radio says
 when turned on.  After this, I do a formal radio check.
 
-![](Baofeng_headset_ptt.jpg)
+![](Baofeng-UV5R_headset_ptt.jpg)
 
 ![](Kenwood_two-pin-plug.jpg)
 
