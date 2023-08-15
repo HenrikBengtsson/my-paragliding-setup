@@ -37,6 +37,19 @@ the QR code.
    and download ('Save to Computer') files.
 
 
+## Update firmware
+
+I'm running firmware 2023-04-20_11-32_3.3.2_6c3976585 (last checked
+2023-08-15).
+
+
+## Install apps by APK files
+
+I failed to set up Google App Store on the ONYX Poke 3.  The only way
+I found to install apps is by download their APK file.
+
+
+
 
 ## Appendix
 
@@ -100,3 +113,4 @@ _Comments_: It looks like 'BooxDrop' page here also requires your
 computer and Poke to be on the same local network. In other words, I
 don't think you can transfer files via 'BooxDrop' over the cloud or
 via the cloud storage.
+
