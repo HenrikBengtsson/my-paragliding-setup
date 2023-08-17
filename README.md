@@ -87,7 +87,9 @@ I've got the [BlueFlyVario] with Bluetooth & GPS v22.  We ordered two on
 * Dimensions: 58 x 36 x 16 mm
 
 * Battery: ~8 hours (w/ Bluetooth & electromagnetic transducer
-  running). 2-3 hours to fully charge
+  running). 2-3 hours to fully charge.  Observation: A five-hour
+  (sic!) flight took it from 100% down 46% (3.828V; 3 beeps)
+  
 
 * Power button: click to turn ON, long press to turn OFF
 
@@ -158,9 +160,9 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 * XCTrack: Install via [APK](https://xctrack.org/Download.html)
   ([changelog](https://xctrack.org/Change_Log.html))
 
-* Battery: A five-hour (sic!) flight took it from from 97% to 50%
-  (running XCTrack in the background and an auto-reloading website
-  with live wind data in the foreground)
+* Battery: 8-10 hours(?).  Observation: A five-hour (sic!) flight took
+  it from from 97% to 50% (running XCTrack in the background and an
+  auto-reloading website with live wind data in the foreground)
 
 
 ## Configuration
