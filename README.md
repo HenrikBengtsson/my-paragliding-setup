@@ -158,6 +158,9 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 * XCTrack: Install via [APK](https://xctrack.org/Download.html)
   ([changelog](https://xctrack.org/Change_Log.html))
 
+* Battery: A five-hour (sic!) flight took it from from 97% to 50%
+  (running XCTrack in the background and an auto-reloading website
+  with live wind data in the foreground)
 
 
 ## Configuration
