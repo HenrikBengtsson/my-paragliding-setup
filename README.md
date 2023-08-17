@@ -153,7 +153,8 @@ I ordered the [ONYX BOOX Poke 3] e-reader from BestBuy USA on
 
 * Android: 10
 
-* Google Play Store: no/maybe (failed to install it)
+* Google Play Store: yes ([requires manual one-time
+  activation](onyx-poke/README.md))
 
 * Speaker: no
 

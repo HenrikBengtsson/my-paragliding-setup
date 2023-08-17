@@ -1,5 +1,39 @@
 # ONYX Poke Device
 
+## Activate Google Play Store
+
+The Google Play Store app is not working out of the box, which is
+because the ONYX Poke 3 is _not_ a certified Android device.  The
+workaround is to override this and manual register your device.  To do
+this,
+
+1. Go to Apps
+
+2. Click on the "hamburger" menu and select 'App Management'
+
+3. Enable Google Play: ON
+
+4. Click 'GSF ID' (showing a unique ID for your personal device) to
+   get to Google's Device registration page.
+
+5. Log into your Google Account.
+
+6. Click 'Register' (after validating the reCAPTCHA)
+
+The above registration didn't work for me when I first tried it back
+in May/June 2022.  Then I have up.  I then revisited August 2023, and
+the registration worked.
+
+_WARNING_: It is up to you to decide whether you trust the Poke device
+and Boox to do the following. If not, you can always create a separate
+Google Account.
+
+
+Source: YouTube video [How to activate google play (Firmware
+V3.2)](https://www.youtube.com/watch?v=QcH3KOQmCDA)
+
+
+
 ## Transfer files
 
 There are several options to transfer files back and forth between a
@@ -113,4 +147,5 @@ _Comments_: It looks like 'BooxDrop' page here also requires your
 computer and Poke to be on the same local network. In other words, I
 don't think you can transfer files via 'BooxDrop' over the cloud or
 via the cloud storage.
+
 
