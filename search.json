@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Paragliding Gadgets Setup",
+    "section": "",
+    "text": "Preface\nThis is book has the details for my gadgets that I use for paragliding."
+  },
+  {
+    "objectID": "README.html#procedure-on-launch",
+    "href": "README.html#procedure-on-launch",
+    "title": "1  My Paragliding Setup",
+    "section": "1.1 Procedure on launch",
+    "text": "1.1 Procedure on launch\n\nPower on the Poke 3\nOn Android phone, start WiFi hotspot\nConfirm that the Poke 3 is connected to the phone’s WiFi\nPower on the BlueFlyVario vario\nStart XCTrack\nConfirm that Bluetooth, GPS and live tracking work\n\nPower on the Media Button and confirm pressing left-right shifts XCTrack displays\n\nThe only little bit of friction in this set up is the hotspot setup and making sure the Poke 3 has a wifi connection before launching XCTrack. Without that, it’s just power on the devices and starting the XCTrack app."
+  },
+  {
+    "objectID": "README.html#gadget-details",
+    "href": "README.html#gadget-details",
+    "title": "1  My Paragliding Setup",
+    "section": "1.2 Gadget details",
+    "text": "1.2 Gadget details\n\n1.2.1 Vario: BlueFlyVario with Bluetooth & GPS v22\nI’ve got the BlueFlyVario with Bluetooth & GPS v22. We ordered two on 2022-05-12 for 348 AUD (~240 USD) and received them 2022-05-29.\n\nWeight: 48 g\nDimensions: 58 x 36 x 16 mm\nBattery: ~8 hours (w/ Bluetooth & electromagnetic transducer running). 2-3 hours to fully charge. Observation: A five-hour (sic!) flight took it from 100% down 46% (3.828V; 3 beeps)\nPower button: click to turn ON, long press to turn OFF\nPower button when already ON: short press toggles audio ON, BUZZER, and OFF. This is easy to press during a flight.\nBattery status (during startup):\n\nFirst beep is a 1.0s beep at 4000 Hz\nFollowed by 1-6 “battery” beeps (indicating 3.6-4.2 V)\nFollowed by a short 0.2s beep at 4000 Hz\n\nLED lights:\n\nBLUE (Bluetooth):\n\nFlash every second =&gt; Bluetooth scanning\nDouble flash every second =&gt; connected\nSolid =&gt; Bluetooth module is disabled (settings SecondsBluetoothWait). Fix by restarting vario\n\nORANGE (GPS):\n\n1.0s flashing =&gt; GPS 3D fix\noff =&gt; no GPS fix\n\nGREEN:\n\nDuring startup\nWhen pressing button\nWhen lift beep sounds (setting GreenLED)\n\nRED:\n\nCharging (turns off if full charged, but may stays on for trickle charging)\n\n\nTrack logs:\n\nCapacity: ~60 hours at one-second intervals\nAlways on: when GPS has 3D fix (ORANGE flash)\n\n\n\n\n1.2.2 Display: ONYX BOOX Poke 3 Android 10 e-reader\nI ordered the ONYX BOOX Poke 3 e-reader from BestBuy USA on 2022-05-13 for 190 USD and received it on 2022-05-19.\n\nWeight: 150 g\nDimensions: 153 x 107 x 6.8 mm\nScreen: 6.0 inch (90 x 120 mm), 1072 x 1448 px (300 ppi), 16 gray scales\nAndroid: 10\nGoogle Play Store: yes (requires manual one-time activation)\nSpeaker: no\nXCTrack: Install via APK (changelog)\nBattery: 8-10 hours(?). Observation: A five-hour (sic!) flight took it from from 97% to 50% (running XCTrack in the background and an auto-reloading website with live wind data in the foreground)"
+  },
+  {
+    "objectID": "README.html#configuration",
+    "href": "README.html#configuration",
+    "title": "1  My Paragliding Setup",
+    "section": "1.3 Configuration",
+    "text": "1.3 Configuration\n\n1.3.1 Poke 3 and XCTrack\nThe Poke graphical user interface (GUI) can be a bit peculiar at first. For example, it uses it’s own on-screen keyboard and it also has a, so called, ‘Navigation Ball’. It’s a small round blob that sits in front on any app you open. You’ll need it. If you click it, you’ll get access to more action buttons, and one commonly used one is the “back” button.\nIn order for XCTrack to go into landscape, which you can set inside XCTrack by going to ‘Preferences’ and then ‘Orientation’, you must configure the app such that it can override the ‘Rotation’ settings that the Poke GUI uses, which is ‘Portrait’ by default. To do this:\n\nLong press ‘XCTrack’ app icon\nSelect ‘Optimize’\nGo to the ‘Others’ tab\nDisable ‘Force to use system orientation’ (i.e. set it to OFF)\n\n\n\n1.3.2 Poke 3, BlueFlyVario, and XCTrack\nUse BlueFlyVario as an external GPS in XTrack:\n\nPairing: In Poke 3 Bluetooth settings, pair BlueFlyVario device (e.g. BlueFly-7D0D). No PIN required.\nEnable location: In Poke 3, open the ‘Control Center’ in the Poke 3/Android pulldown menu. There you should see WiFi and Bluetooth buttons at the very top. Below are two panels, both showing a set of icons that can be used to toggle settings on and off. The top panel, of these two, has a volume bar and the bottom one a brightness bar and a contrast bar. In the top panel, enable ‘Location’ by clicking on the map icon. This icon might be in the second “subscreen”, which you can get to by swiping left inside the panel. IMPORTANT: if this is not done, then you cannot connect the BlyFlyVario device in XCTrack (at least not on Poke 3).\nExternal GPS and External Barometer in XCTrack: In XCTrack, go to ‘Preferences’, then ‘Connections & Sensors’.\n\nUnder ‘Connection’, click ‘External sensors’, select ‘Bluetooth sensor’ and click ‘OK’. It will scan for paired Bluetooh devices. Select the BlueFlyVario device (e.g. BlueFly-7D0D).\nUnder ‘GPS’, enable ‘Use external GPS’. IMPORTANT: If you forget this, XCTrack will never recieve GPS data therefore only report on the lift and sink (from the barometer in BlueFlyVario). When it works, XCTrack will give the ‘GPS signal OK’ notification and it will show GPS altitute, the speed, flight arrow, and more even when on the group.\nUnder ‘Atmospheric pressure sensor’, enable ‘Use external barometer’. IMPORTANT: If you forget this, I think XCTrack will use the GPS data, which is much less sensitive, to report on lift and sink.\n\n\n\n\n1.3.3 BlueFlyVario setting\nOptions to change hardware settings:\n\nAndroid: BlueFlyVario Android App (installable on Poke 3) Download: https://blueflyvario.com/files/BlueFlyVario.apk\nAny operating system: BFV Desktop Java Application Download: https://blueflyvario.com/files/BFVDesktop0.85.zip\n\nFor Poke 3, which does not have a speaker, change:\n\nUseAudioWhenConnected: true (default false)\n\n\n\n1.3.4 Recoil Media Button settings\nThis device broadcasts itself on Bluetooth as ‘PCR-1’. To pair to the Poke 3, go to the Bluetooth settings and locate ‘PCR-1’ under ‘Available devices’. Then click on ‘PCR-1’ to pair it. When paired it will appear under ‘CONNECTED DEVICES’. When powered off, it will be listed under ‘PAIRED DEVICES’, which are the devices that the Poke 3 remembers.\nWhen powered on, the Poke 3 will immediately connect to the Recoil Media Button device.\nThe device goes automatically into a sleep mode after 20 minutes. This is to preserve battery. Pressing any button (Previous track, Next track, Volumn Down, Volume Up, PAUSE/PLAY) will wake it up with very little delay.\nTo configure what the buttons should do, open XCTrack, go to ‘Preferences’, andthen ‘Key bindings’. I use the following settings:\n\nSwitch to page left: Previous track\nSwitch to page right: Next track\nZoom map in: None\nZoom map out: None\nToggle map panning: Long press: 85\nPan map LEFT in panning mode: Long press: Previous track\nPan map RIGHT in panning mode: Long press: Next track\nPan map UP in panning mode: Volumn Up\nPan map DOWN in panning mode: Volumn Down\nShow menu: None\nRevert to previous waypoint in task: None\nAdvance to previous waypoint in task: None\nIncrease display brightness: None\nDecrease display brightness: None"
+  },
+  {
+    "objectID": "onyx-poke/README.html#activate-google-play-store",
+    "href": "onyx-poke/README.html#activate-google-play-store",
+    "title": "2  ONYX Poke Device",
+    "section": "2.1 Activate Google Play Store",
+    "text": "2.1 Activate Google Play Store\nThe Google Play Store app is not working out of the box, which is because the ONYX Poke 3 is not a certified Android device. The workaround is to override this and manual register your device. To do this,\n\nGo to Apps\nClick on the “hamburger” menu and select ‘App Management’\nEnable Google Play: ON\nClick ‘GSF ID’ (showing a unique ID for your personal device) to get to Google’s Device registration page.\nLog into your Google Account.\nClick ‘Register’ (after validating the reCAPTCHA)\n\nThe above registration didn’t work for me when I first tried it back in May/June 2022. Then I have up. I then revisited August 2023, and the registration worked.\nWARNING: It is up to you to decide whether you trust the Poke device and Boox to do the following. If not, you can always create a separate Google Account.\nSource: YouTube video How to activate google play (Firmware V3.2)"
+  },
+  {
+    "objectID": "onyx-poke/README.html#transfer-files",
+    "href": "onyx-poke/README.html#transfer-files",
+    "title": "2  ONYX Poke Device",
+    "section": "2.2 Transfer files",
+    "text": "2.2 Transfer files\nThere are several options to transfer files back and forth between a computer or a smartphone and the Poke device. I found that the ‘BOOXDrop’ alternative is quite convenient since it requires no login or account setup.\nI don’t think one can transfer these files via the ONYX Cloud Storage; it looks like you can only store notes and books via the cloud storage. See the Appendix for my notes on this.\n\n2.2.1 BOOXDrop\nEach BOOX device runs a built-in web server that can be access by other devices on the same local network (e.g. on the same WiFi network). [Comment: I need to figure out how to disable this /Henrik 2023-04-30]. To find the website address for your device,\n\nGo to ‘Apps’\nClick ‘BOOXDrop’ (might be grouped under ‘Onyx apps’)\n\nThat will should you a URL that looks something like http://192.168.1.8:8085, where 192.168.1.8 is the IP number of the device (yours will be different) on your local network (e.g. WiFi). The 8085 number at the end is a port number, and we all have the same one. If you’re lazy to type this in on your phone, you can scan the QR code.\n\nOpen your Poke’s BOOXDrop URL in your computer’s web browser. Your Poke and your computer must be connected to the same local network (e.g. WiFi). This will open up a webpage title ‘BOOX Drop’ where you can browser the files on your Poke, and upload (‘Send to BOOX’) and download (‘Save to Computer’) files."
+  },
+  {
+    "objectID": "onyx-poke/README.html#update-firmware",
+    "href": "onyx-poke/README.html#update-firmware",
+    "title": "2  ONYX Poke Device",
+    "section": "2.3 Update firmware",
+    "text": "2.3 Update firmware\nI’m running firmware 2023-04-20_11-32_3.3.2_6c3976585 (last checked 2023-08-15)."
+  },
+  {
+    "objectID": "onyx-poke/README.html#install-apps-by-apk-files",
+    "href": "onyx-poke/README.html#install-apps-by-apk-files",
+    "title": "2  ONYX Poke Device",
+    "section": "2.4 Install apps by APK files",
+    "text": "2.4 Install apps by APK files\nI failed to set up Google App Store on the ONYX Poke 3. The only way I found to install apps is by download their APK file."
+  },
+  {
+    "objectID": "onyx-poke/README.html#appendix",
+    "href": "onyx-poke/README.html#appendix",
+    "title": "2  ONYX Poke Device",
+    "section": "2.5 Appendix",
+    "text": "2.5 Appendix\n\n2.5.1 Create ONYX Account (optional/not useful)\nOn Poke 3,\n\nGo to ‘Settings’.\nAt the very top, click on the icon for ‘ONYX Account’ (“Get 10GB Cloud Storage for Notes Sync and Other Cloud Services”).\nSelect ‘Servers’ (I picked ‘EUR(eur.boox.com)’ because of EU’s stricter privacy rules).\nScroll down to ‘Login Methods’ and select the ‘Email’ icon (so you can register without having to give out your phone number).\nUnder ‘Email’, enter your email address.\nClick ‘Get verification code’\nCheck your email for the six-digit verification code.\nEnter verification code.\nCheck that you agree on the terms and conditions.\nClick ‘Login’.\n\nYou should now be logged into the ONYX account, which you can confirm by going to the ‘Settings’ screen. There it should now say ‘’ (“Cloud Storage: 0/10 GB”) at the very top.\n\n\n2.5.2 Connect to ONYX Cloud Storage from web browser\nEach ONYX device gets 10 GB of free cloud storage. This requires your to sign up for an account (see Appendix for instructions).\nOn your computer, or smart phone,\n\nGo to your ONYX account server (e.g. https://eur.boox.com) in the web browser.\nEnter your login information (e.g. email address).\nClick ‘Obtain Verification Code’.\nCheck your emails for the one-time verification code.\nCheck ‘Agree …’.\nClick ‘Sign in’.\n\nYou should now see a website titled ‘BOOX’ with menu items ‘Notes’, ‘BooxDrop’, ‘Library’ and ‘Import Reading’.\nComments: It looks like ‘BooxDrop’ page here also requires your computer and Poke to be on the same local network. In other words, I don’t think you can transfer files via ‘BooxDrop’ over the cloud or via the cloud storage."
+  },
+  {
+    "objectID": "xctrack/README.html#sharing-pages-layout-with-others",
+    "href": "xctrack/README.html#sharing-pages-layout-with-others",
+    "title": "3  XCTrack",
+    "section": "3.1 Sharing Pages layout with others",
+    "text": "3.1 Sharing Pages layout with others\nThese instructions assumes you run XCTrack 0.9.8.7 (2023-04-26) or newer.\n\n3.1.1 Export “Pages” layouts\n\nGo to ‘Preferences’ -&gt; ‘Export & Import config’.\nClick ‘Export configuration’.\nSelect ‘PAGES ONLY’.\n\nYou will get a pop-up window titled ‘Export finished’ that says something like “Current XCTrack configuration saved to file /storage/emulated/0/Android/data/org.xcontest.XCTrack/files/Config/2023-04-30_pages_00.xcfg`.\nIf you have Sharing apps configured on your device, click ‘SHARE’ and select method for sharing this file. Otherwise click ‘CLOSE’ and use other ways to transfer the file under /storage/emulated/0/Android/data/org.xcontest.XCTrack/files/Config/ on the Android device to another device or storage. If you’re using a ONYX Poke device, you can use ‘BOOXDrop’.\n\n\n3.1.2 Import “Pages” layouts\nIf you received a XCTrack configuration file from some one else, either one that contains their full configuration, or just their pages configuration, you can import their “pages” settings to your XCTrack app.\nAfter having downloaded the *.xcfg file to the Android device where your run XCTrack, open XCTrack and:\n\nGo to ‘Preferences’ -&gt; ‘Export & Import config’.\nClick ‘Import configuration’.\nClick ‘OTHER …’ (you might see an error message too)\nYou will now see an Android file-navigator window. Navigate to the *.xcfg file you wish to import, and click on it.\nIf you’re importing a full XCTrack configuration, you will get three options:\n\nReplace all (all your config and pages will be overwritten)\nReplace pages only (overwrite your pages and widgets only)\nAdd pages only (nothing will be overwritten, new pages will be added after yours)\n\nChoose either ‘Replace pages only’ or ‘Add pages only’.\nClick ‘CONTINUE’.\nIf you choose anything else than ‘Add pages only’, you need to confirm too. Click ‘YES’.\nYou should see ‘Configuration successfully imported’. Click ‘OK’.\n\nDone.\nYou can now go back to ‘Preferences’ -&gt; ‘Pages layout’ to confirm that the new pages have been imported correctly.\nAlso, make sure ‘Preferences’ -&gt; ‘Display’ -&gt; ‘Orientation’ is set to either portrait or landscape of the pages you want to use. This is important, because pages designed in landscape mode will only work when the XCTrack display is set to be in landscape mode, and vice versa for portrait mode."
+  },
+  {
+    "objectID": "xctrack/README.html#backing-up-and-restoring-xctrack-configuration",
+    "href": "xctrack/README.html#backing-up-and-restoring-xctrack-configuration",
+    "title": "3  XCTrack",
+    "section": "3.2 Backing up and Restoring XCTrack configuration",
+    "text": "3.2 Backing up and Restoring XCTrack configuration\nIt’s always good to backup your XCTrack settings once in a while. This is also the easiest way to get started again if you get a new Android device.\n\n3.2.1 Backing up all your XCTrack settings\nTo back up your XCTrack settings to a &lt;date&gt;_&lt;index&gt;.xcfg file under /storage/emulated/0/Android/data/org.xcontest.XCTrack/files/Config/ on the Poke,\n\nGo to ‘Preferences’,\nthen ‘Export & import config’ (or ‘Testing & Debug’ on XCTrack &lt;= 0.9.8.6), and\nclick ‘Export configuration’.\n\nYou will get a pop-up window titled ‘Export finished’ that says something like “Current XCTrack configuration saved to file /storage/emulated/0/Android/data/org.xcontest.XCTrack/files/Config/2023-04-30_backup00.xcfg`.\nThis will export your airspaces, portrait and landscape page layouts, pilot and glider names, connected Bluetooth varios, and other types of preferences set.\nImportantly, downloaded terrain maps and road maps will not be part of the exported *.xcfg. Your xcontest.org username and password will also not exported.\nIf you have configured your sharing on your Poke, you could click ‘SHARE’ to share via, say, Bluetooth or Email. I don’t have sharing configured, so I click ‘CLOSE’ at this point. I use the ‘Destiny’ app (https://f-droid.org/en/packages/com.leastauthority.destiny/) to send my settings to my computer.\n\n\n3.2.2 Restoring XCTrack configuration\nTo restore previously backed up XCTrack settings,\n\nGo to ‘Preferences’,\nthen ‘Export & import config’ (or ‘Testing & Debug’ on XCTrack &lt;= 0.9.8.6), and\nclick ‘Import configuration’.\nChoose an *.xcfg file to import (either among the listed ones or under ‘OTHER…’)\nConfirm ‘Really import configuration?’ by pressing YES.\nConfirm ‘Shut down XCTrack?’ by pressing YES.\nIn the XCTrack ‘App info’ display, click ‘FORCE STOP’, and then confirm by pressing ‘OK’.\nReopen XCTrack."
+  },
+  {
+    "objectID": "hamradio/README.html#baofeng-uv-5r",
+    "href": "hamradio/README.html#baofeng-uv-5r",
+    "title": "4  Ham Radio",
+    "section": "4.1 Baofeng UV-5R",
+    "text": "4.1 Baofeng UV-5R\nI use a Baofeng UV-5R since several years back. The reason for this is that they are easy to get in the US, the cost is only 40-50 USD, so it’s not a biggie to get a replacement, keep a backup, and buy spare batteries. The Baofeng UV-5R handset uses the a Kenwood compatible two-pin plug; one plug is 2.5mm and the other is 3.5mm and are 12mm apart. Because of this, I have a fair bit of head sets with push-to-talk (PTT) buttons to choose from. The one I have is 25-35 USD from Amazon. I place the PTT button on my left riser near my break handle, because that way I can easily transmit also in active air and while thermalling. I have the headset and the mic mounted permanently on my helmet.\nOn launch, I put on my helmet, let the cable hang down before I close my jacket, then I connect it together with the PTT cable that I run down the riser thought the carabiner, and at the end I plug it to the radio that is on my flight deck. I then turn on the radio to confirm that I can hear “Frequency mode” or “Channel mode” that the radio says when turned on. After this, I do a formal radio check.\n\n\nComment: According to Wikipedia, “the model variant Boafeng UV5R HT” is no longer sold in Germany and Switzerland and may not be used there."
+  },
+  {
+    "objectID": "hamradio/README.html#crt-france-fp-00-temporary",
+    "href": "hamradio/README.html#crt-france-fp-00-temporary",
+    "title": "4  Ham Radio",
+    "section": "4.2 CRT France FP 00 (temporary)",
+    "text": "4.2 CRT France FP 00 (temporary)\nI got a CRT France FP 00 radio in France 2023 when I was on the Saint Hilare launch realizing my the battery in my Baofeng radio was dead. I got it for 47 EUR from the Prevol shop at launch. I was lucky because it had the same headset connection as my Baofeng, so it worked with my PTT headset. It a Baofeng clone with the same configuration and menu items(*). The battery and the charger, including the plug to the charging dock is different though. I haven’t tried, but it also looks like CHIRP (programming via cable) is not support (yet), e.g. https://chirp.danplanet.com/issues/9894.\n(*) I walked through the menu on the CRT-FP00 and the Baofeng UV-5R step by step and the menu entries were identical."
+  },
+  {
+    "objectID": "hamradio/README.html#yaesu-ft-270r-legacy",
+    "href": "hamradio/README.html#yaesu-ft-270r-legacy",
+    "title": "4  Ham Radio",
+    "section": "4.3 Yaesu FT-270R (legacy)",
+    "text": "4.3 Yaesu FT-270R (legacy)\nIn the past, I used my Yaesu FT-270R radio with a custom-build push-to-talk (PTT) headset. It worked great, but once in a while, and always during flying trips, the headset connection to the radio broke. The problem with the Yaseu FT-270R is that it has a screw-in plug (see picture). The purpose of that is so that the plug does not fall out, but the problem was that slowly you end up twisting the cable too much so that the cables inside break. It happened twice to me at launch during flying trips. I loved the custom-made Glidecom Cloudbase Headset, but it was custom built by a guy in Oregon and delivery was flaky at best, so this solution became unreliable in the long run. I never managed to find another nicec headset, so I switched to a cheaper, lower-quality Baofeng radio."
+  },
+  {
+    "objectID": "hamradio/baofeng.html#program-radio-via-usb-cable",
+    "href": "hamradio/baofeng.html#program-radio-via-usb-cable",
+    "title": "5  Mirkit Baofeng HAM radio UV-5R MK4 8W",
+    "section": "5.1 Program radio via USB cable",
+    "text": "5.1 Program radio via USB cable"
+  },
+  {
+    "objectID": "hamradio/baofeng.html#setup-chirp",
+    "href": "hamradio/baofeng.html#setup-chirp",
+    "title": "5  Mirkit Baofeng HAM radio UV-5R MK4 8W",
+    "section": "5.2 Setup CHIRP",
+    "text": "5.2 Setup CHIRP\n$ wget https://trac.chirp.danplanet.com/chirp_daily/LATEST/chirp-daily-20211221.flatpak\n$ sudo flatpak install chirp-daily-20211221.flatpak \nRequired runtime for com.danplanet.chirp/x86_64/master (runtime/org.freedesktop.Platform/x86_64/19.08) found in remote flathub\nDo you want to install it? [y/n]: y\nInstalling in system:\norg.freedesktop.Platform/x86_64/19.08             flathub                      a85bd015f173\norg.freedesktop.Platform.GL.default/x86_64/19.08  flathub                      54eadc8792db\norg.freedesktop.Platform.Locale/x86_64/19.08      flathub                      82c2332b3e80\norg.gtk.Gtk3theme.Ambiance/x86_64/3.22            flathub                      73fed99df212\norg.freedesktop.Platform.VAAPI.Intel/x86_64/19.08 flathub                      86a7fe067ae4\norg.freedesktop.Platform.openh264/x86_64/2.0      flathub                      73f998362a6f\ncom.danplanet.chirp/x86_64/master                 com.danplanet.chirp-3-origin 168fd65053cc\n  permissions: ipc, network, wayland, x11, devices\n  file access: home\nIs this ok [y/n]: y\nInstalling: org.freedesktop.Platform/x86_64/19.08 from flathub"
+  },
+  {
+    "objectID": "hamradio/baofeng.html#first-test",
+    "href": "hamradio/baofeng.html#first-test",
+    "title": "5  Mirkit Baofeng HAM radio UV-5R MK4 8W",
+    "section": "5.3 First test",
+    "text": "5.3 First test\nIdentify /dev/tty? for radio:\n\nTurn off radio\nUnplug the red MERKIT USB programming cable\nbefore=$(ls /dev/tty*)\nPlug in the red MERKIT USB programming cable\nafter=$(ls /dev/tty*)\ndiff &lt;(echo \"$before\") &lt;(echo \"$after\") =&gt; e.g. /dev/ttyUSB0\n\nRun CHIRP:\n\nTurn on radio on max volume\nchirpw\nMenu ‘Radio’ -&gt; ‘Download from radio’\nPort: /dev/ttyUSB0, Vendor: Baofeng, Model: ‘UV-5R’"
+  }
+]
