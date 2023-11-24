@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "My Paragliding Gadgets Setup"
+  author: "Henrik Bengtsson"
+
+  date: last-modified
+  date-format: iso
+
+  cover-image: images/my_pg_cockpit-2022.jpg
+  
+  chapters:
+    - index.qmd
+    - part: "Overview"
+      chapters:
+      - README.md
+    - part: "Blue Fly Vario"
+#      chapters:
+#      - blueflyvario/README.md
+    - part: "BOOK Onyx Poke"
+      chapters:
+      - onyx-poke/README.md
+    - part: "Recoil"
+#      chapters:
+#      - recoil/README.md
+    - part: "XC Track"
+      chapters:
+      - xctrack/README.md
+    - part: "Radio"
+      chapters:
+      - hamradio/README.md
+      - hamradio/baofeng.md
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt

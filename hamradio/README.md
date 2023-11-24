@@ -22,12 +22,28 @@ when turned on.  After this, I do a formal radio check.
 
 ![](Kenwood_two-pin-plug.jpg)
 
-
-
 _Comment_: According to
 [Wikipedia](https://www.wikipedia.org/wiki/Baofeng_UV-5R), "the model
 variant Boafeng UV5R HT" is no longer sold in Germany and Switzerland
 and may not be used there.
+
+
+Our radio units:
+
+* 2 UV-5R MK4 with 'MIRKIT' on the front. Label on the back: Model:
+   UV-5R MK4 Mirkit Edition, Voltage: 7.4V, Power: 8W, Frequency:
+   136-174 MHz/400-520 MHz, S/N: UV-5R MK4 A00163, S/N: UV-5R MK4
+   A00163. Purchased 2019-03-30 and 2019-06-14.
+
+* 4 UV-5R MK4 with 'UV-5R MK4' on the front.  Label on the back:
+   Model: UV-5R MK4 Max Power Mirkit Edition, Voltage: 7.4V, Power:
+   8W, Frequency: 136-174 MHz/400-520 MHz, S/N: UV-5R MK4
+   A21895. FCCID: 2AJGM-UV5R. Purchased 2021-12-20.
+
+Batteries:
+
+* Model: BL-5. Li-ion battery 7.4V 1800mAh.
+
 
 
 ## CRT France FP 00 (temporary)
