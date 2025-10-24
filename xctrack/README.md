@@ -140,6 +140,20 @@ To restore previously backed up XCTrack settings,
 8. Reopen XCTrack.
 
 
+### Install and Update XCTrack
+
+To install or update XCTrack
+([changelog](https://xctrack.org/Change_Log.html)):
+
+1. Download the latest [APK](https://xctrack.org/Download.html)
+
+2. Open the download file
+
+3. Click 'Install'
+  
+4. Verify that it opens
+
+5. Verify that it can connect to the Bluetooth and GPS works
 
 
 [xctrack/xcfg/poke3_layouts_landscape.xcfg]: https://github.com/HenrikBengtsson/my-paragliding-setup/blob/develop/xctrack/xcfg/poke3_layouts_landscape.xcfg
