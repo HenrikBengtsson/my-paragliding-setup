@@ -93,7 +93,7 @@ never really used, because I mount my radio on my flight deck and then
 this long antenna sticks too far out.
 
 I've recently started to experiment with a 72cm foldable tactical
-antenna with a coax extension cord ((~17 USD on
+antenna with a coax extension cord ([~17 USD on
 Amazon](https://www.amazon.com/dp/B094R6GW8Y/)) (right).  I place the
 antenna upside-down in my harness and pull the extension cord over my
 sholder and down to the radio unit.  This adds an extra step of having

@@ -73,8 +73,8 @@ the QR code.
 
 ## Update firmware
 
-I'm running firmware 2023-04-20_11-32_3.3.2_6c3976585 (last checked
-2023-08-15).
+I'm running firmware 2023-12-12_23-45_3.5_4687b1901 (last checked
+2025-10-23).
 
 
 ## Install apps by APK files
@@ -147,5 +147,3 @@ _Comments_: It looks like 'BooxDrop' page here also requires your
 computer and Poke to be on the same local network. In other words, I
 don't think you can transfer files via 'BooxDrop' over the cloud or
 via the cloud storage.
-
-
