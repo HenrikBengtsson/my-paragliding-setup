@@ -256,7 +256,7 @@
     "href": "xctrack/README.html#chores",
     "title": "7  XCTrack",
     "section": "",
-    "text": "Update Poke Firmware\nUpdate XCTrack\nUpdate [XC Track] settings:\nGo to ‘Preferences’ and then:\n\n‘Export & import config’ -&gt; ‘Export configuration’ -&gt; ‘WHOLE CONFIGURATION’\n‘Airspaces and obstacles’ (or set to ‘Auto-update during flight’)\n‘Maps’ -&gt; Terrain\n‘Maps’ -&gt; Road Map",
+    "text": "Update Poke Firmware\nUpdate XCTrack\nUpdate [XC Track] settings:\nGo to ‘Preferences’ and then:\n\n‘Export & import config’ -&gt; ‘Export configuration’ -&gt; ‘WHOLE CONFIGURATION’\n‘Airspaces and obstacles’:\n\n‘WEB’ -&gt; ‘REFRESH’ at the bottom. Enable ‘Auto-update during flight’\n‘OBSTACLES’ -&gt; ‘REFRESH’ at the bottom\n‘SETTINGS’: check ‘Obstact alerting’ settings\n\n‘Maps’ -&gt; ‘TERRAIN’\n‘Maps’ -&gt; ‘ROAD MAP’ -&gt; ‘MANAGE MAPS’ (Check dates)",
     "crumbs": [
       "XC Track",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>XCTrack</span>"
