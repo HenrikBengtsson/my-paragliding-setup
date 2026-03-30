@@ -73,8 +73,11 @@ the QR code.
 
 ## Update firmware
 
+To see currently installed firmware version, go to 'Settings'. There's a panel at the top showing the 'Version' details.
+To check for firmware updates, go to 'Settings' and click 'Firmware Update'.
+
 I'm running firmware 2023-12-12_23-45_3.5_4687b1901 (last checked
-2025-10-23).
+2026-03-30).
 
 
 ## Install apps by APK files
