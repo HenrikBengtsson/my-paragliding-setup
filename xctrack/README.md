@@ -11,9 +11,12 @@
     Go to 'Preferences' and then:
 
     - 'Export & import config' -> 'Export configuration' -> 'WHOLE CONFIGURATION'
-    - 'Airspaces and obstacles' (or set to 'Auto-update during flight')
-    - 'Maps' -> Terrain
-    - 'Maps' -> Road Map
+    - 'Airspaces and obstacles':
+       - 'WEB' -> 'REFRESH' at the bottom. Enable 'Auto-update during flight'
+       - 'OBSTACLES' -> 'REFRESH' at the bottom
+       - 'SETTINGS': check 'Obstact alerting' settings
+    - 'Maps' -> 'TERRAIN'
+    - 'Maps' -> 'ROAD MAP' -> 'MANAGE MAPS' (Check dates)
     
 
 
