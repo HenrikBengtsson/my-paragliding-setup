@@ -1,5 +1,22 @@
 # XCTrack
 
+## Chores
+
+ 1. Update [Poke Firmware](../onyx-poke/README.html#update-firmware)
+
+ 2. Update [XCTrack](README.html#install-and-update-xctrack)
+
+ 3. Update [XC Track] settings:
+ 
+    Go to 'Preferences' and then:
+
+    - 'Export & import config' -> 'Export configuration' -> 'WHOLE CONFIGURATION'
+    - 'Airspaces and obstacles' (or set to 'Auto-update during flight')
+    - 'Maps' -> Terrain
+    - 'Maps' -> Road Map
+    
+
+
 ## Sharing Pages layout with others
 
 These instructions assumes you run XCTrack 0.9.8.7 (2023-04-26) or
